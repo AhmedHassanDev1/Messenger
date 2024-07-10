@@ -1,0 +1,23 @@
+version: '3'
+name: chat_App
+services:
+  client:
+    build: ./client  
+    container_name: client
+    environment: 
+      - port: 8000
+    ports: 
+      - "3000:3000"
+    volumes:
+      - ./client:/app:ro 
+  server:
+    build: ./server  
+    container_name: server
+    environment: 
+      - port: 8000
+    ports: 
+      - "8000:8000"
+    volumes:
+      - ./server:/app:ro
+       
+

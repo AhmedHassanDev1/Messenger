@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="Mroq8_m3PU64QTCryE5m" name="Page-1">
+        <mxGraphModel dx="716" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="50" width="410" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="evnet send message if know coversation id" style="whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="130" y="50" width="300" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="1&lt;b&gt;-add to message to local&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="100" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;3-emit event send message&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="180" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;2-add conversation top upper&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="145" width="190" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;4- replace old message by new message and call cb()&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="220" width="360" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="290" width="420" height="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;evnet send message if unknow coversation id&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="290" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;1&lt;/span&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;-add to message to local&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="151" y="340" width="239" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;b style=&quot;color: rgb(240, 240, 240);&quot;&gt;2-add conversation top upper&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#f0a30a;strokeColor=#BD7000;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="390" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;b&gt;3-craete new conversation_id&amp;nbsp;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="440" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b&gt;4- create new conversation&amp;nbsp;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="490" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;5-&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="540" width="240" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
